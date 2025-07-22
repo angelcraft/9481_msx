@@ -759,6 +759,19 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-07-22 19:02:47 +0000",
+      "minecraft:stony_shore": "2025-07-22 19:02:35 +0000"
+    },
+    "done": false
+  },
+  "biomeswevegone:biomeswevegone/adventure/true_traveler": {
+    "criteria": {
+      "pumpkin_patch_village": "2025-07-22 19:03:20 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-07-22 19:03:36 +0000"
@@ -783,12 +796,6 @@
     },
     "done": true
   },
-  "aether:recipes/tools/diamond_pickaxe_repairing": {
-    "criteria": {
-      "has_diamond_pickaxe": "2025-07-22 19:06:14 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/misc/earplugs": {
     "criteria": {
       "has_item": "2025-07-22 19:03:36 +0000"
@@ -807,27 +814,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/green_dye_from_bwg_dye_tag": {
-    "criteria": {
-      "has_dye_tag": "2025-07-22 19:06:25 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/dark_oak/dark_oak_blossom_trapdoor": {
     "criteria": {
       "has_plankss": "2025-07-22 19:03:36 +0000"
-    },
-    "done": true
-  },
-  "biomeswevegone:biomeswevegone/adventure/true_traveler": {
-    "criteria": {
-      "pumpkin_patch_village": "2025-07-22 19:03:20 +0000"
-    },
-    "done": false
-  },
-  "morevillagers:recipes/gardening_table": {
-    "criteria": {
-      "has_flower": "2025-07-22 19:06:25 +0000"
     },
     "done": true
   },
@@ -861,12 +850,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_bwg_dye_tag": {
-    "criteria": {
-      "has_dye_tag": "2025-07-22 19:06:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-07-22 19:03:36 +0000"
@@ -879,28 +862,231 @@
     },
     "done": true
   },
-  "aether:recipes/tools/wooden_axe_repairing": {
-    "criteria": {
-      "has_wooden_axe": "2025-07-22 19:06:40 +0000"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/rope_dark_oak_bridge": {
     "criteria": {
       "has_planks": "2025-07-22 19:03:36 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:river": "2025-07-22 19:02:47 +0000",
-      "minecraft:stony_shore": "2025-07-22 19:02:35 +0000"
-    },
-    "done": false
-  },
   "mcwbridges:recipes/dark_oak_rail_bridge": {
     "criteria": {
       "has_planks": "2025-07-22 19:03:36 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2025-07-22 19:06:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye_from_bwg_dye_tag": {
+    "criteria": {
+      "has_dye_tag": "2025-07-22 19:06:25 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:recipes/gardening_table": {
+    "criteria": {
+      "has_flower": "2025-07-22 19:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_bwg_dye_tag": {
+    "criteria": {
+      "has_dye_tag": "2025-07-22 19:06:25 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/wooden_axe_repairing": {
+    "criteria": {
+      "has_wooden_axe": "2025-07-22 19:06:40 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/blue_enchanted_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/blue_enchanted_button": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-22 19:11:49 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/blue_enchanted_fence": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/coke_oven/charcoal": {
+    "criteria": {
+      "has_logs": "2025-07-22 19:11:11 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/sakura_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/stripped_blue_enchanted_wood": {
+    "criteria": {
+      "has_log": "2025-07-22 19:11:21 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/blue_enchanted_crafting_table": {
+    "criteria": {
+      "has_blue_enchanted_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/sakura_crafting_table": {
+    "criteria": {
+      "has_sakura_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/sakura_bookshelf": {
+    "criteria": {
+      "has_sakura_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/sakura_planks": {
+    "criteria": {
+      "has_log": "2025-07-22 19:11:11 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/sakura_door": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/sakura_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/blue_enchanted_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/sakura_slab": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/blue_enchanted_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/sakura_button": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/blue_enchanted_sign": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/blue_enchanted_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-07-22 19:11:21 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/blue_enchanted_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-22 19:11:11 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/sakura_fence": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/sakura_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/blue_enchanted_slab": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/blue_enchanted_door": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:11:37 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/decorations/sakura_sign": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/redstone/sakura_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-22 19:10:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/blue_enchanted_planks": {
+    "criteria": {
+      "has_log": "2025-07-22 19:11:21 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/sakura_wood": {
+    "criteria": {
+      "has_log": "2025-07-22 19:11:11 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-22 19:11:49 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/blue_enchanted_bookshelf": {
+    "criteria": {
+      "has_blue_enchanted_planks": "2025-07-22 19:11:37 +0000"
     },
     "done": true
   },
